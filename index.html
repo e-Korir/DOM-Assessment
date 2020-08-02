@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dom Manipulation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Developed_By" content="#Your Name">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="App">
+    <nav>
+      <p>
+        <!-- Nav Paragraph Tag -->
+        100 Days of code  with Lux is a program  by lux tech academy which runs for 100 days in each tech it involves 100 day of intensive coding and practise and sharing your progress with peers
+      </p>
+    </nav>
+    <!--App Section -->
+    <section id="main">
+      <p>
+        <!--Section  Paragraph Tag-->
+        100 Days of code  with Lux is a program  by lux tech academy which runs for 100 days in each tech it involves 100 day of intensive coding and practise and sharing your progress with peers
+      </p>
+    </section>
+    <script>
+        document.getElementById("main").style.backgroundColor = "blue";
+        document.getElementById("main").style.padding = "0px";
+        document.getElementById("main").style.margin = "0px";
+        document.getElementById("main").style.display = "flex";
+    </script>
+  </div>
+
+  <button id="btn" class="btn">
+    <b> Welcome </b></button>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+                <span class="close">&times;</span>
+            <h2>Welcome to JavaScript Training BootCamp</h2>
+            <p>Lux Tech Academy is a free online training BootCamp which have crash and advance coding classes.</p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
